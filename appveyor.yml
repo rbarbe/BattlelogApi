@@ -1,0 +1,14 @@
+version: 1.0.{build}
+os: Visual Studio 2015
+install:
+- ps: >-
+    ./InstallDnx.ps1
+build:
+  verbosity: minimal
+after_build:
+- dnu pack --framework dotnet --configuration release src/Battlelog.BattlelogApi
+#test_script:
+#- dnx --project test/Battlelog.BattlelogApi.Test test
+artifacts:
+- path: src/Battlelog.BattlelogApi/bin/release/*.nupkg
+  name: Battlelog.BattlelogApi

@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "title": "Battlelog web client",
+  "description": "Battlelog web client",
+  "authors": [ "Roland Barbe" ],
+  "owners": [ "Roland Barbe" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rbarbe/BattlelogApi"
+  },
+  "tags": [ "battlelog", "battlefield", "bf", "bf4", "bfh", "hardline" ],
+  "projectUrl": "https://github.com/rbarbe/BattlelogApi",
+  "licenseUrl": "https://raw.githubusercontent.com/rbarbe/BattlelogApi/master/LICENSE",
+  "frameworks": {
+    "dotnet": { }
+  },
+  "dependencies": {
+    "AngleSharp": "0.9.2",
+    "System.Net.Http": "4.0.0",
+    "System.Collections": "4.0.0",
+    "System.Runtime.Extensions": "4.0.0"
+  }
+}
