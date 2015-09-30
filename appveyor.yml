@@ -7,6 +7,7 @@ build:
   verbosity: minimal
 after_build:
 - dnu pack --framework dotnet --configuration release src/Battlelog.BattlelogApi
+test: off
 #test_script:
 #- dnx --project test/Battlelog.BattlelogApi.Test test
 artifacts:
