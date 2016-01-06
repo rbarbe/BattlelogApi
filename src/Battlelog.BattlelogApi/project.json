@@ -12,10 +12,10 @@
   "projectUrl": "https://github.com/rbarbe/BattlelogApi",
   "licenseUrl": "https://raw.githubusercontent.com/rbarbe/BattlelogApi/master/LICENSE",
   "frameworks": {
-    "dotnet": { }
+    "dotnet5.1": { }
   },
   "dependencies": {
-    "AngleSharp": "0.9.2",
+    "AngleSharp": "0.9.4",
     "System.Net.Http": "4.0.0",
     "System.Collections": "4.0.0",
     "System.Runtime.Extensions": "4.0.0"
