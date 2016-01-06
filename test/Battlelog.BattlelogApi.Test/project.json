@@ -7,7 +7,7 @@
   "licenseUrl": "",
 
   "dependencies": {
-    "Battlelog.BattlelogApi": "1.0.0-*",
+    "Battlelog.BattlelogApi": "1.0.1-*",
     "Microsoft.CSharp": "4.0.0",
     "System.Linq": "4.0.0",
     "xunit": "2.1.0",
